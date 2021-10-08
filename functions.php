@@ -407,7 +407,7 @@ if (!function_exists('the_breadcrumb')) :
       echo '</nav>';
     }
   }
-  add_filter('breadcrumbs', 'breadcrumbs');
+  add_filter('breadcrumbs', 'the_breadcrumb');
 endif;
 // Breadcrumb END
 
